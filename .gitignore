@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.coverage
+
+# Local environments and editor state
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Generated experiment artifacts and model checkpoints
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
